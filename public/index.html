@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TMONEY — Telegram Money，表情包优先，税费分享其次，拒绝企业式无聊">
+  <meta name="theme-color" content="#168de2">
+  <title>TMONEY</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="TMONEY 首页">
+      <span class="plane-logo" aria-hidden="true"><span></span></span>
+      <span>TMONEY</span>
+    </a>
+    <nav aria-label="主导航">
+      <button id="twitter-link" type="button">TWITTER</button>
+      <a href="#memes">表情包</a>
+      <a href="#claim">申领税费</a>
+    </nav>
+    <button class="stamp-button js-claim">打开机器人 ↗</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">TELEGRAM MONEY · $TMONEY</p>
+        <h1>WORK FOR<br>UR BAGS<br>AND GEET<br><span>TMONEY</span></h1>
+        <p class="hero-lede">为那些在 2021 年上线，却从未真正退出的人打造的表情包机器</p>
+        <div class="hero-actions">
+          <button class="big-button js-claim"><span>申领你的份额</span><b>↗</b></button>
+          <a class="text-link" href="#memes">查看宣传材料 ↓</a>
+        </div>
+      </div>
+      <div class="hero-art paper-card tilted-right">
+        <div class="tape tape-a"></div>
+        <img src="/assets/boss-propaganda.png" alt="手绘纸飞机老板和一群办公室员工">
+        <p class="scribble">老板说这是“自然增长”</p>
+      </div>
+      <div class="orbit-note note-one">不要路线图<br>只要转发</div>
+      <div class="orbit-note note-two">100% 聊天<br>0% 会议</div>
+    </section>
+
+    <div class="ticker" aria-label="TMONEY 滚动标语">
+      <div>转发 · 做梗 · 申领 · TMONEY 就是 TELEGRAM MONEY · 转发 · 做梗 · 申领 · TMONEY 就是 TELEGRAM MONEY ·</div>
+    </div>
+
+    <section class="manifesto" id="memes">
+      <header class="section-heading">
+        <p>实习生泄露的内部备忘录</p>
+        <h2>宣传部</h2>
+      </header>
+
+      <div class="meme-grid">
+        <article class="meme-card yellow-card">
+          <div class="meme-number">001</div>
+          <img src="/assets/boss-propaganda.png" alt="手绘蓝色纸飞机老板和员工人群">
+          <div class="meme-copy">
+            <p class="tag">今日 KPI</p>
+            <h3>老板需要 1,100 名员工传播今天的宣传</h3>
+            <span>人力资源 ❌</span>
+          </div>
+        </article>
+
+        <article class="meme-card blue-card offset-card">
+          <div class="meme-number">002</div>
+          <img src="/assets/back-to-2021.png" alt="手绘纸飞机角色拉下 2021 年巨型拉杆">
+          <div class="meme-copy">
+            <p class="tag">增长策略</p>
+            <h3>回到 2021 年，META 把所有用户都推入我们的群组</h3>
+            <span>元宇宙可以等<br>群聊不能等</span>
+          </div>
+        </article>
+
+        <article class="meme-card cream-card wide-card">
+          <div class="meme-number">003</div>
+          <img src="/assets/claim-taxes.png" alt="手绘纸飞机角色盖下税费份额申领印章">
+          <div class="meme-copy">
+            <p class="tag">社区会计</p>
+            <h3>发布 TMONEY 内容，转发原始消息，让机器人处理那些小文件</h3>
+            <span>你的会计已经退出群聊</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="claim-section" id="claim">
+      <div class="claim-intro">
+        <p class="eyebrow">税费分享入口</p>
+        <h2>发帖<br>转发<br><span>申领</span></h2>
+        <p>先在 Telegram 发布一条关于 TMONEY 的原创消息，再把那条原始消息直接转发给机器人，机器人会检查 Telegram 来源并把有效申请加入审核队列</p>
+        <button class="big-button dark-button js-claim"><span>联系机器人</span><b>↗</b></button>
+        <small>不要截图，不要复制链接，只需转发原始消息</small>
+      </div>
+
+      <ol class="claim-steps">
+        <li>
+          <span class="step-no">01</span>
+          <div><h3>制造声量</h3><p>发布一条真正讨论 TMONEY 或 Telegram Money 的消息</p></div>
+        </li>
+        <li>
+          <span class="step-no">02</span>
+          <div><h3>转发证明</h3><p>把 Telegram 原始消息直接转发给申领机器人</p></div>
+        </li>
+        <li>
+          <span class="step-no">03</span>
+          <div><h3>机器人检查</h3><p>自动检查来源、内容以及是否重复提交</p></div>
+        </li>
+        <li>
+          <span class="step-no">04</span>
+          <div><h3>等待审核</h3><p>通过检查的申请会进入待审核税费分享队列</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="bot-preview" aria-label="Telegram 机器人对话预览">
+      <div class="phone">
+        <div class="phone-top"><span class="plane-logo mini" aria-hidden="true"><span></span></span><div><b>TMONEY 税费机器人</b><small>机器人</small></div></div>
+        <div class="chat-area">
+          <div class="bubble bot-bubble">请转发提到 TMONEY 的原始帖子</div>
+          <div class="bubble user-bubble">转发自表情包部门<br><b>TMONEY 就是 Telegram Money ✈</b></div>
+          <div class="bubble bot-bubble approved">看起来一切正确，你应该很快会收到属于你的税费份额，申请现已进入最终审核</div>
+        </div>
+      </div>
+      <div class="preview-copy">
+        <p class="eyebrow">默认双语回复</p>
+        <h2>机器人同时使用<br><i>英语</i> 和中文</h2>
+        <p>机器人实际发送的每条回复都会同时包含英语和中文，AI 审核为可选功能，Telegram 转发来源和确定性检查仍然是第一道门槛</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="plane-logo" aria-hidden="true"><span></span></span><b>TMONEY</b></div>
+    <p>TELEGRAM MONEY · 带收据的表情包</p>
+    <button class="stamp-button js-claim">申领税费 ↗</button>
+  </footer>
+
+  <dialog id="bot-dialog">
+    <button class="dialog-close" aria-label="关闭">×</button>
+    <p class="eyebrow">机器人连接</p>
+    <h2 id="dialog-title">机器人信息待配置</h2>
+    <p id="dialog-copy">请在桌面环境文件中添加机器人令牌和用户名，然后重新启动 TMONEY</p>
+    <a id="dialog-link" class="big-button hidden" target="_blank" rel="noopener noreferrer"><span>打开 TELEGRAM 机器人</span><b>↗</b></a>
+  </dialog>
+
+  <div id="social-notice" class="social-notice" role="status" aria-live="polite">推特链接即将配置</div>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

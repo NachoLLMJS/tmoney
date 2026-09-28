@@ -1,0 +1,19 @@
+{
+  "name": "tmoney-meme-hq",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-static.js",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "bot": "node src/bot.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check src/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "openai": "^7.23.0"
+  }
+}
